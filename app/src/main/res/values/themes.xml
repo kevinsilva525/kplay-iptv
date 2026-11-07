@@ -4,7 +4,48 @@
         <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:statusBarColor">@color/background_dark</item>
         <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:colorAccent">@color/accent_cyan</item>
         <item name="colorPrimary">@color/button_red</item>
-        <item name="colorAccent">@color/button_red</item>
+        <item name="colorAccent">@color/accent_cyan</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="PrimaryAction" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_button_primary</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:allCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="LibraryAction" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_button_library</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:allCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="UtilityAction" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_button_utility</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:allCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
     </style>
 </resources>

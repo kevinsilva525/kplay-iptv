@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_dark">#12151D</color>
-    <color name="button_red">#7A0016</color>
-    <color name="text_white">#FFFFFF</color>
-    <color name="text_muted">#B8BCC8</color>
+    <color name="background_dark">#090D16</color>
+    <color name="button_red">#FF3155</color>
+    <color name="text_white">#F4F7FF</color>
+    <color name="text_muted">#9AA8BC</color>
+    <color name="accent_cyan">#54E6E0</color>
+    <color name="panel">#141C2A</color>
+    <color name="divider">#263246</color>
+    <color name="button_focus">#25344A</color>
+    <color name="status_green">#54E6A5</color>
+    <color name="status_gray">#758196</color>
 </resources>
